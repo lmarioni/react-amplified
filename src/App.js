@@ -45,6 +45,7 @@ const App = () => {
   return (
     <div style={styles.container}>
       <h2>Amplify Todos</h2>
+      <h1>FEATURE-NEW-PAGE</h1>
       <input
         onChange={event => setInput('name', event.target.value)}
         style={styles.input}
